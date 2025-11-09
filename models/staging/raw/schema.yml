@@ -1,0 +1,20 @@
+
+sources:
+
+
+- name: raw
+  schema: gz_raw_dataset
+  tables:
+    - name: sales
+      identifier: raw_gz_sales
+      description: sales info
+      columns:
+        - name: order_id
+          tests:
+          - not_null
+          - unique
+    - name: product
+      identifier: raw_gz_product
+      description: product information
+    - name: ship
+      identifier: raw_gz_ship
