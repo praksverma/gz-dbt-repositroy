@@ -11,6 +11,7 @@ joined as (
     s.orders_id,
     p.products_id,
     s.revenue,
+    s.date_date,
     s.quantity,
     p.purchase_price,
     Round(quantity*purchase_price,2) AS purchase_cost,

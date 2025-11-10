@@ -8,9 +8,6 @@ sources:
     - name: sales
       identifier: raw_gz_sales
       description: sales info
-    
-          
-      
     - name: product
       identifier: raw_gz_product
       description: product information
