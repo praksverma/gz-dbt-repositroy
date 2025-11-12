@@ -1,3 +1,5 @@
+
+
 with finance as (
     select *
     from {{ref('int_orders_operational')}}
